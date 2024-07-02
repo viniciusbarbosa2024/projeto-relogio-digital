@@ -14,7 +14,7 @@ function relogio() {
         dezenaSegundos.innerHTML = 0
         unidadeSegundos.innerHTML = String(segundos).charAt(0)    
     } else {
-       dezenaSegundos.innerHTML = String(segundos).charAt(0) //Anotar sobre o charAt()
+       dezenaSegundos.innerHTML = String(segundos).charAt(0)
        unidadeSegundos.innerHTML = String(segundos).charAt(1) 
     }
     
@@ -37,6 +37,6 @@ function relogio() {
     
 }
 
-setInterval(relogio,1000) //Anotar sobre setInterval
+window.setInterval(relogio,1000)
 
-//relogio()
+
