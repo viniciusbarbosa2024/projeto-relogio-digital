@@ -14,29 +14,36 @@ body {
     align-items: center;
     
     background-color: rgb(43, 43, 43);
+    font-family: 'Arial', sans-serif;
 }
 
 main {
     width: 700px;
-    height: 300px;
-    padding: 10px;
+    height: 200px;
+    padding: 20px;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
     background-color: rgb(26, 26, 26);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 main .relogio {
-    padding: 20px;
+    padding: 10px 20px;
 
-    font-size: 5em;
+    font-size: 4em;
+    color: rgb(43, 43, 43);
     
     background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 main .doispontos {
     color: white;
-    font-size: 5em;
+    font-size: 4em;
+    padding: 0 10px;
 }
